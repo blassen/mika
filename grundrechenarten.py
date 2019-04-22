@@ -1,8 +1,8 @@
 import random 
 
 while(True):
-    (a,b)=random.randint(1,10)
-    #b=random.randint(1,10)
+    a=random.randint(1,10)
+    b=random.randint(1,10)
     f=random.randint(1,4)
     print("a:",a)
     print("b:",b)
@@ -34,11 +34,11 @@ while(True):
     else:
         op_name = "Division"
         op = "/"
-        divisor = a * b
-        dividend = a 
-        r = divisor / dividend
-        a = divisor
-        b = dividend
+        divisor = a
+        dividend = a * b
+        r = dividend / divisor
+        a = dividend
+        b = divisor
         
     while(True):
         res = int(input("Was ist das Ergebnis der " + op_name + " von : "+ str(a) + " "+op+" " + str(b)+" ?"))
