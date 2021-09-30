@@ -9,7 +9,7 @@ while(True):
     print("f", f)
     
     if f == 1:
-        op_name = "Addtion"
+        op_name = "Addition"
         op = "+"
         r = a + b
         
